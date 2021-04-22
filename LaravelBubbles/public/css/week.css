@@ -1,0 +1,76 @@
+.Überschreiben
+{
+    width: fit-content;
+    padding:10px;
+    border:5px solid rgb(255, 0, 221);
+    margin:0px;
+    background-color: #b661b9;
+    text-align:center;
+}
+
+caption{
+    text-align: center;
+    caption-side: bottom;
+}
+
+
+tr,td
+{
+    width: 50px;
+    /* //fit-content; */
+    /* height:fit-content; */
+    padding:10px;
+    border:5px solid rgb(166, 255, 0);
+    margin:0px;
+    background-color: #f7ffe0;
+    text-align:center;
+}
+
+th:not(.Überschreiben )
+{
+    width: fit-content;
+    padding:10px;
+    border:5px solid rgb(0, 102, 255);
+    margin:0px;
+    background-color: #f7ffe0;
+    text-align:center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+
+
+
+[id^=dump]{
+    width: fit-content;
+    height : fit-content;
+    background-color: rgb(105, 228, 148);
+    /* align-items: center; */
+}
+
+[id^=ggg]{
+    position: absolute;
+    background-color: rgb(203, 105, 228);
+    /* top:300px; */
+}
+[id^=text]{
+    background-color: rgb(233, 67, 130);
+    /* width: fit-content;
+    height : fit-content; */
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+#dump{
+    width : 50px;
+    height : 50px;
+    background-color: rgb(105, 228, 148);
+    align-items: center;
+}
+
+
+

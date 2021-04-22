@@ -1,0 +1,47 @@
+body { font: 12px Arial;}
+
+path {
+  stroke: steelblue;
+  stroke-width: 2;
+  fill: none;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: grey;
+	stroke-width: 1;
+	shape-rendering: crispEdges;
+}
+
+.tooltip {
+	background: #eee;
+	box-shadow: 0 0 5px #999999;
+	color: rgb(235, 221, 221);
+	font-size: 12px;
+	left: 130px;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	top: 95px;
+	z-index: 10;
+	display: block;
+	opacity: 0;
+}
+
+.title{
+font-size:16px;
+}
+
+#wrapper{
+    background-color: rgb(0, 238, 255);
+    grid-column:5/10;
+    grid-row:1/10;
+    display:inline-flex;
+
+}
+
+svg{
+    background-color: rgb(8, 137, 243);
+    /* position: absolute;  */
+}

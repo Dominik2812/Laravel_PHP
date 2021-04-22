@@ -1,0 +1,167 @@
+
+
+    /* HTML CSS JS
+
+    Result
+    Skip Results Iframe */
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  background-color: #222;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 300px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.circular {
+  width: 100%;
+  font-size: 150%;
+}
+
+.circular,
+.circular li {
+  background-color: rgb(226, 17, 17);
+}
+
+.circular p {
+  color: rgba(255, 251, 0, 0.8);
+}
+
+.circular li span {
+  background-color: rgba(255, 131, 0, 0.4);
+}
+
+.circular li.open > span,
+.circular li.open span:hover {
+  background-color: rgba(255, 131, 0, 0.8);
+}
+
+.circular li span:hover {
+  background-color: rgba(255, 131, 0, 0.6);
+}
+
+.circular,
+.circular ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  z-index: 1;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.circular li > ul {
+  font-size: 80%;
+  line-height: 80%;
+  width: 100%;
+  height: 100%;
+}
+
+.circular li {
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  z-index: 2;
+  top: -20%;
+  left: -20%;
+}
+
+.circular p {
+  white-space: nowrap;
+  -webkit-transition: all ease-in-out .4s;
+  -moz-transition: all ease-in-out .4s;
+  -ms-transition: all ease-in-out .4s;
+  -o-transition: all ease-in-out .4s;
+  transition: all ease-in-out .4s;
+  padding: 10% 0;
+  text-decoration: none;
+  top: 30%;
+  height: 40%;
+  display: inline-block;
+  position: relative;
+  z-index: 1001;
+}
+
+.circular p {
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.open > ul > li > p {
+  left: 110%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.circular li span {
+  position: absolute;
+  left: 15%;
+  top: 15%;
+  width: 70%;
+  height: 70%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+  z-index: 100;
+}
+
+#footer-info {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px 15px;
+  background-color: rgba(255, 131, 0, 0.4);
+  color: #000;
+  font-size: 70%;
+}
+
